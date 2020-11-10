@@ -1,10 +1,12 @@
 import setuptools
 
-author = __import__("consulate").__author__
-author_email = __import__("consulate").__email__
-maintainer = __import__("consulate").__maintainer__
-maintainer_email = __import__("consulate").__maintainer_email__
-version = __import__("consulate").__version__
+__version__ = "1.0.0"
+
+__author__ = "Gavin M. Roy"
+__email__ = "gavinr@aweber.com"
+
+__maintainer__ = "Alberto Vara"
+__maintainer_email__ = "a.vara.1986@gmail.com"
 
 install_requires = [
     "requests>=2.24.0",
@@ -33,12 +35,12 @@ install_tests_requires = [
 
 setuptools.setup(
     name="py-ms-consulate",
-    version=version,
-    author=author,
-    author_email=author_email,
+    version=__version__,
+    author=__author__,
+    author_email=__email__,
     description="A Client library and command line application for the Consul",
-    maintainer=maintainer,
-    maintainer_email=maintainer_email,
+    maintainer=__maintainer__,
+    maintainer_email=__maintainer_email__,
     url="https://consulate.readthedocs.org",
     install_requires=install_requires,
     extras_require={"unixsocket": install_extra_requires, "tests": install_tests_requires},
