@@ -203,11 +203,12 @@ the scope of the full Consulate API.
 
 For more examples, check out the Consulate documentation.
 
-.. |Version| image:: https://img.shields.io/pypi/v/consulate.svg?
-   :target: https://pypi.python.org/pypi/consulate
+.. |Version| image:: https://img.shields.io/pypi/v/py-ms-consulate.svg?
+   :target: https://pypi.python.org/pypi/py-ms-consulate
 
-.. |Status| image:: https://img.shields.io/travis/gmr/consulate.svg?
-   :target: https://travis-ci.org/gmr/consulate
+.. |Status| image:: https://travis-ci.org/python-microservices/consulate.svg?branch=master
+   :target: https://travis-ci.org/github/python-microservices/consulate
 
-.. |Coverage| image:: https://img.shields.io/codecov/c/github/gmr/consulate.svg?
-   :target: https://codecov.io/github/gmr/consulate?branch=master
+.. |Coverage| image:: https://coveralls.io/repos/github/python-microservices/consulate/badge.svg?branch=master
+   :target: https://coveralls.io/github/python-microservices/consulate?branch=master
+
