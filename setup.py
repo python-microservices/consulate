@@ -1,10 +1,10 @@
 import setuptools
 
-author = __import__("pyms").__author__
-author_email = __import__("pyms").__email__
-maintainer = __import__("pyms").__maintainer__
-maintainer_email = __import__("pyms").__maintainer_email__
-version = __import__("pyms").__version__
+author = __import__("consulate").__author__
+author_email = __import__("consulate").__email__
+maintainer = __import__("consulate").__maintainer__
+maintainer_email = __import__("consulate").__maintainer_email__
+version = __import__("consulate").__version__
 
 install_requires = [
     "requests>=2.24.0",
