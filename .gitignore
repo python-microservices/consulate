@@ -12,3 +12,4 @@ cover
 docs/_build
 MANIFEST
 venv
+htmlcov
