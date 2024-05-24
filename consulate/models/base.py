@@ -2,10 +2,13 @@
 Base Model
 
 """
-import collections
+try:
+    from collections.abc import Iterable  # noqa
+except ImportError:
+    from collections import Iterable  # noqa
 
 
-class Model(collections.Iterable):
+class Model(Iterable):
     """A model contains an __attribute__ map that defines the name,
     its type for type validation, an optional validation method, a method
     used to
