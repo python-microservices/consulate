@@ -1,6 +1,6 @@
 import setuptools
 
-__version__ = "1.0.0"
+__version__ = "1.1.0"
 
 __author__ = "Gavin M. Roy"
 __email__ = "gavinr@aweber.com"
